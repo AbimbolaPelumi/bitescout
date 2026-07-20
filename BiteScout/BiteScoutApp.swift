@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct BiteScoutApp: App {
+    init() {
+        BiteScoutFont.configureNativeChrome()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()

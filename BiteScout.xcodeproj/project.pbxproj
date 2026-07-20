@@ -6,20 +6,76 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		C66796C7300B364B008CA9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66796A4300B3649008CA9B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66796AB300B3649008CA9B7;
+			remoteInfo = BiteScout;
+		};
+		C66796C8300B364B008CA9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C66796A4300B3649008CA9B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66796AB300B3649008CA9B7;
+			remoteInfo = BiteScout;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		C66796AC300B3649008CA9B7 /* BiteScout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiteScout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66796BD300B364B008CA9B7 /* BiteScoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiteScoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66796BE300B364B008CA9B7 /* BiteScoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiteScoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C66796BA300B364B008CA9B7 /* Exceptions for "BiteScout" folder in "BiteScout" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C66796AB300B3649008CA9B7 /* BiteScout */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C66796AE300B3649008CA9B7 /* BiteScout */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C66796BA300B364B008CA9B7 /* Exceptions for "BiteScout" folder in "BiteScout" target */,
+			);
 			path = BiteScout;
+			sourceTree = "<group>";
+		};
+		C66796BB300B364B008CA9B7 /* BiteScoutTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BiteScoutTests;
+			sourceTree = "<group>";
+		};
+		C66796BC300B364B008CA9B7 /* BiteScoutUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BiteScoutUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C66796A9300B3649008CA9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66796C0300B364B008CA9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66796C3300B364B008CA9B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				C66796AE300B3649008CA9B7 /* BiteScout */,
+				C66796BB300B364B008CA9B7 /* BiteScoutTests */,
+				C66796BC300B364B008CA9B7 /* BiteScoutUITests */,
 				C66796AD300B3649008CA9B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				C66796AC300B3649008CA9B7 /* BiteScout.app */,
+				C66796BD300B364B008CA9B7 /* BiteScoutTests.xctest */,
+				C66796BE300B364B008CA9B7 /* BiteScoutUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +130,52 @@
 			productReference = C66796AC300B3649008CA9B7 /* BiteScout.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C66796C5300B364B008CA9B7 /* BiteScoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66796CB300B364B008CA9B7 /* Build configuration list for PBXNativeTarget "BiteScoutTests" */;
+			buildPhases = (
+				C66796BF300B364B008CA9B7 /* Sources */,
+				C66796C0300B364B008CA9B7 /* Frameworks */,
+				C66796C1300B364B008CA9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66796C9300B364B008CA9B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C66796BB300B364B008CA9B7 /* BiteScoutTests */,
+			);
+			name = BiteScoutTests;
+			packageProductDependencies = (
+			);
+			productName = BiteScoutTests;
+			productReference = C66796BD300B364B008CA9B7 /* BiteScoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C66796C6300B364B008CA9B7 /* BiteScoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66796CC300B364B008CA9B7 /* Build configuration list for PBXNativeTarget "BiteScoutUITests" */;
+			buildPhases = (
+				C66796C2300B364B008CA9B7 /* Sources */,
+				C66796C3300B364B008CA9B7 /* Frameworks */,
+				C66796C4300B364B008CA9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66796CA300B364B008CA9B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C66796BC300B364B008CA9B7 /* BiteScoutUITests */,
+			);
+			name = BiteScoutUITests;
+			packageProductDependencies = (
+			);
+			productName = BiteScoutUITests;
+			productReference = C66796BE300B364B008CA9B7 /* BiteScoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +188,14 @@
 				TargetAttributes = {
 					C66796AB300B3649008CA9B7 = {
 						CreatedOnToolsVersion = 26.3;
+					};
+					C66796C5300B364B008CA9B7 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = C66796AB300B3649008CA9B7;
+					};
+					C66796C6300B364B008CA9B7 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = C66796AB300B3649008CA9B7;
 					};
 				};
 			};
@@ -100,12 +214,28 @@
 			projectRoot = "";
 			targets = (
 				C66796AB300B3649008CA9B7 /* BiteScout */,
+				C66796C5300B364B008CA9B7 /* BiteScoutTests */,
+				C66796C6300B364B008CA9B7 /* BiteScoutUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C66796AA300B3649008CA9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66796C1300B364B008CA9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66796C4300B364B008CA9B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +252,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C66796BF300B364B008CA9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66796C2300B364B008CA9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C66796C9300B364B008CA9B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66796AB300B3649008CA9B7 /* BiteScout */;
+			targetProxy = C66796C7300B364B008CA9B7 /* PBXContainerItemProxy */;
+		};
+		C66796CA300B364B008CA9B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C66796AB300B3649008CA9B7 /* BiteScout */;
+			targetProxy = C66796C8300B364B008CA9B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C66796B5300B364B008CA9B7 /* Debug */ = {
@@ -177,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -234,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -247,17 +404,14 @@
 		C66796B8300B364B008CA9B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = BiteScout;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW9267PBNG;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BiteScout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -270,7 +424,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -278,17 +432,14 @@
 		C66796B9300B364B008CA9B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = BiteScout;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW9267PBNG;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BiteScout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,8 +452,94 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C66796CD300B364B008CA9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW9267PBNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pelumi.BiteScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiteScout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BiteScout";
+			};
+			name = Debug;
+		};
+		C66796CE300B364B008CA9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW9267PBNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pelumi.BiteScoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiteScout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BiteScout";
+			};
+			name = Release;
+		};
+		C66796CF300B364B008CA9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW9267PBNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pelumi.BiteScoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiteScout;
+			};
+			name = Debug;
+		};
+		C66796D0300B364B008CA9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW9267PBNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pelumi.BiteScoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiteScout;
 			};
 			name = Release;
 		};
@@ -323,6 +560,24 @@
 			buildConfigurations = (
 				C66796B8300B364B008CA9B7 /* Debug */,
 				C66796B9300B364B008CA9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66796CB300B364B008CA9B7 /* Build configuration list for PBXNativeTarget "BiteScoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66796CD300B364B008CA9B7 /* Debug */,
+				C66796CE300B364B008CA9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66796CC300B364B008CA9B7 /* Build configuration list for PBXNativeTarget "BiteScoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66796CF300B364B008CA9B7 /* Debug */,
+				C66796D0300B364B008CA9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
